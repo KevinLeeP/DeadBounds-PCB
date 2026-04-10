@@ -416,7 +416,7 @@
         "uuid": "c652495f-dd42-4f45-9891-1e05b67942c0"
       }
     ],
-    "used_designators": "U1-2",
+    "used_designators": "U1-3,LCD1",
     "variants": []
   },
   "sheets": [
