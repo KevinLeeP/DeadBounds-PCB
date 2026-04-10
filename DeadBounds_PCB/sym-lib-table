@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "DeadBounds_Symbols") (type "KiCad") (uri "${KIPRJMOD}/DeadBounds_Sym_Library") (options "") (descr ""))
+)
