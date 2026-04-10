@@ -5,333 +5,6 @@
 	(uuid "c652495f-dd42-4f45-9891-1e05b67942c0")
 	(paper "A3")
 	(lib_symbols
-		(symbol "DeadBounds_Symbols:HiLetgo_ST7735"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "LCD"
-				(at -1.778 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.905 1.905)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "HiLetgo_ST7735_1_1"
-				(rectangle
-					(start -15.24 17.78)
-					(end 8.89 -36.83)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type color)
-						(color 84 88 98 1)
-					)
-				)
-				(pin input line
-					(at -17.78 15.24 0)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 11.43 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 7.62 0)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 3.81 0)
-					(length 2.54)
-					(name "RESET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 0 0)
-					(length 2.54)
-					(name "A0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -3.81 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -7.62 0)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -11.43 0)
-					(length 2.54)
-					(name "CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -15.24 0)
-					(length 2.54)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -19.05 0)
-					(length 2.54)
-					(name "MISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -22.86 0)
-					(length 2.54)
-					(name "MOSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -26.67 0)
-					(length 2.54)
-					(name "SD_CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -30.48 0)
-					(length 2.54)
-					(name "LED+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -34.29 0)
-					(length 2.54)
-					(name "LED-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "DeadBounds_Symbols:MSPM0G3507SPMR"
 			(pin_names
 				(offset 0.254)
@@ -1622,428 +1295,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Driver_LED:LM3914N"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -6.35 14.224 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM3914N"
-				(at 5.588 14.224 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_DIP:DIP-18_W7.62mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm3914.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "10 LED Dot/Bar Display Driver, DIP-18"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED driver bar dot"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "DIP*W7.62mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LM3914N_0_1"
-				(rectangle
-					(start -7.62 12.7)
-					(end 7.62 -15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LM3914N_1_1"
-				(pin open_collector line
-					(at 10.16 10.16 180)
-					(length 2.54)
-					(name "LED1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -17.78 90)
-					(length 2.54)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "RLO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "SIG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "RHI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "REFOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -7.62 0)
-					(length 2.54)
-					(name "REFADJ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -12.7 0)
-					(length 2.54)
-					(name "MODE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 -12.7 180)
-					(length 2.54)
-					(name "LED10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 -10.16 180)
-					(length 2.54)
-					(name "LED9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "LED8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "LED7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "LED6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "LED5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "LED4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "LED3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "LED2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 139.7 12.065)
@@ -2154,252 +1405,6 @@
 			)
 		)
 		(uuid "fed9dade-6fa6-4e59-9832-e34a85a37946")
-	)
-	(symbol
-		(lib_id "Driver_LED:LM3914N")
-		(at 71.12 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45b92de7-258f-446f-9af3-fd7b749b334d")
-		(property "Reference" "U3"
-			(at 73.2633 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM3914N"
-			(at 73.2633 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-18_W7.62mm"
-			(at 71.12 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm3914.pdf"
-			(at 71.12 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10 LED Dot/Bar Display Driver, DIP-18"
-			(at 71.12 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "4c16375b-6d1c-458d-8759-0e7d3953331e")
-		)
-		(pin "10"
-			(uuid "e84e26d8-7d29-44a0-95b2-1d3cc60dbbed")
-		)
-		(pin "1"
-			(uuid "b24ccd36-f732-409a-ac05-fd8359bca627")
-		)
-		(pin "4"
-			(uuid "8145ff54-64a4-4ce9-9f0d-c439d3ca5d8a")
-		)
-		(pin "8"
-			(uuid "56fe50e1-5c99-4ba1-888d-1d2d2ca29c92")
-		)
-		(pin "13"
-			(uuid "fff0cfd4-7453-4e0f-bb14-6d945cf6d3e4")
-		)
-		(pin "14"
-			(uuid "eea14374-6c33-4fb1-8714-0b090dc1d456")
-		)
-		(pin "2"
-			(uuid "1ca592a6-b8e8-4388-a57a-1e99fb6fdb6b")
-		)
-		(pin "5"
-			(uuid "38e74ce8-5e20-4f9f-852c-6fb9d556ecfe")
-		)
-		(pin "7"
-			(uuid "1a3168d1-2627-4953-9483-8c5e5430bb4e")
-		)
-		(pin "15"
-			(uuid "df0fd316-26be-46a9-be50-f70e17f253ff")
-		)
-		(pin "9"
-			(uuid "14618cab-c5d3-44c0-abd2-26937792021b")
-		)
-		(pin "16"
-			(uuid "e58a5a47-7008-4f6c-a746-7d4fd839b771")
-		)
-		(pin "11"
-			(uuid "52c050e7-0640-447d-a65e-7eea6249a3eb")
-		)
-		(pin "3"
-			(uuid "1aff84c8-422e-439b-8d1a-7143ce1cc786")
-		)
-		(pin "17"
-			(uuid "a83a23c4-b06f-4ed8-8d59-b27bcf34aff3")
-		)
-		(pin "12"
-			(uuid "4bf7abbf-4ef3-4e53-9dcc-8448a170de43")
-		)
-		(pin "18"
-			(uuid "efb986ce-bbdf-448f-ba52-c867fdabaae0")
-		)
-		(instances
-			(project "DeadBounds_PCB"
-				(path "/c652495f-dd42-4f45-9891-1e05b67942c0"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DeadBounds_Symbols:HiLetgo_ST7735")
-		(at 196.85 207.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "68e32709-89ae-4c04-be1e-b43a27a66bcd")
-		(property "Reference" "LCD1"
-			(at 189.23 186.182 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.905 1.905)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 196.85 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "a57d633a-c312-47e5-8044-b0acfc703242")
-		)
-		(pin ""
-			(uuid "166d5eae-25da-48d9-aff1-bf47e870ef60")
-		)
-		(pin ""
-			(uuid "19e68d4c-b73c-48e5-9814-1b21728463fb")
-		)
-		(pin ""
-			(uuid "e3c07427-0ae2-489c-af78-927e9adabb37")
-		)
-		(pin ""
-			(uuid "9ae4b5b7-e244-429d-b424-31e4b52dfb0e")
-		)
-		(pin ""
-			(uuid "1e64213f-2ed5-4f25-a174-7d19ddd13ef9")
-		)
-		(pin ""
-			(uuid "c0dd4f56-0005-412e-a698-ee60609d2cb5")
-		)
-		(pin ""
-			(uuid "e58d574a-a25e-4488-a2e4-37aa84704c36")
-		)
-		(pin ""
-			(uuid "685636fa-b8f9-44fc-8228-5b1422d8644e")
-		)
-		(pin ""
-			(uuid "ce2b101f-9eda-4246-8ca5-2bced8a0cad3")
-		)
-		(pin ""
-			(uuid "d5b4700a-0668-4e7b-958e-aa609d10046c")
-		)
-		(pin ""
-			(uuid "249f175c-640b-4eb7-b6d2-f5a657e7a76c")
-		)
-		(pin ""
-			(uuid "8e83f024-f180-4aa5-8edd-d01f233efbcb")
-		)
-		(pin ""
-			(uuid "a3c13bb5-1b07-422b-a654-e57a30948160")
-		)
-		(instances
-			(project "DeadBounds_PCB"
-				(path "/c652495f-dd42-4f45-9891-1e05b67942c0"
-					(reference "LCD1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "DeadBounds_Symbols:MSPM0G3507SPMR")
@@ -2669,132 +1674,186 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Driver_LED:LM3914N")
-		(at 71.12 53.34 0)
-		(unit 1)
-		(body_style 1)
+	(sheet
+		(at 51.435 188.595)
+		(size 46.99 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dcbfc933-6e33-4d10-9167-6b21d0cb58b4")
-		(property "Reference" "U2"
-			(at 73.2633 35.56 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "647be0ff-a9ec-4a97-94e4-73e3782c2387")
+		(property "Sheetname" "Joysticks and Buttons"
+			(at 51.435 187.8834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "LM3914N"
-			(at 73.2633 38.1 0)
+		(property "Sheetfile" "Joysticks_Buttons.kicad_sch"
+			(at 51.435 214.5796 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 			)
-		)
-		(property "Footprint" "Package_DIP:DIP-18_W7.62mm"
-			(at 71.12 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm3914.pdf"
-			(at 71.12 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10 LED Dot/Bar Display Driver, DIP-18"
-			(at 71.12 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "93e07ab0-2bd7-485c-b455-0288c065fd8d")
-		)
-		(pin "10"
-			(uuid "a4454444-b125-42c6-97d2-27ec9d37bf28")
-		)
-		(pin "1"
-			(uuid "91fa688d-4340-43de-949a-4ac7cc6010c8")
-		)
-		(pin "4"
-			(uuid "9ccb0fee-e330-4b76-a6f2-3149204ed215")
-		)
-		(pin "8"
-			(uuid "cd04fec6-0b71-4bdd-a281-8187e595d5a6")
-		)
-		(pin "13"
-			(uuid "6e755d68-04fd-4d5e-b396-7474bfe5b76f")
-		)
-		(pin "14"
-			(uuid "dfbe5961-9870-4b0b-8d70-71ec72f09307")
-		)
-		(pin "2"
-			(uuid "3ec3f1fa-e38e-496b-a325-af00d07d5848")
-		)
-		(pin "5"
-			(uuid "8b23557b-8060-4e3b-9fdd-554e6ce78559")
-		)
-		(pin "7"
-			(uuid "5906a470-d598-4e11-a7d4-4b6d518f96e6")
-		)
-		(pin "15"
-			(uuid "2311d635-46bf-47d0-a505-4e5dcbb496d9")
-		)
-		(pin "9"
-			(uuid "95217598-fb50-464c-992d-c53c88f70f12")
-		)
-		(pin "16"
-			(uuid "0b4888ae-5293-4d53-ab84-fe86e7612eb8")
-		)
-		(pin "11"
-			(uuid "3cd56332-922a-42c5-8f88-94d0a817355f")
-		)
-		(pin "3"
-			(uuid "d8caa30a-8a0f-48f4-b3a6-962284d5fc23")
-		)
-		(pin "17"
-			(uuid "33b78c1d-f541-4ab4-bdb6-34f88182d8dc")
-		)
-		(pin "12"
-			(uuid "afd9a402-fa55-439a-aecc-b789dbefc988")
-		)
-		(pin "18"
-			(uuid "64d558ed-2106-42ad-a11a-99ece18614f3")
 		)
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0"
-					(reference "U2")
-					(unit 1)
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 42.545 50.165)
+		(size 44.45 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7c7086a9-e41d-4924-bac0-297d12e2c7f8")
+		(property "Sheetname" "LED Bar Drivers"
+			(at 42.545 49.4534 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_bar_drivers.kicad_sch"
+			(at 42.545 82.4996 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DeadBounds_PCB"
+				(path "/c652495f-dd42-4f45-9891-1e05b67942c0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 314.96 53.975)
+		(size 34.925 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8be2fbc8-3e56-4fbf-8c37-1c5635a7d56d")
+		(property "Sheetname" "DAC6"
+			(at 314.96 53.2634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DAC6.sch.kicad_sch"
+			(at 314.96 79.9596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DeadBounds_PCB"
+				(path "/c652495f-dd42-4f45-9891-1e05b67942c0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 174.625 191.135)
+		(size 48.26 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f8b6db36-4902-45f1-afa6-b070f6f84c06")
+		(property "Sheetname" "LCD"
+			(at 174.625 190.4234 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LCD.kicad_sch"
+			(at 174.625 218.3896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DeadBounds_PCB"
+				(path "/c652495f-dd42-4f45-9891-1e05b67942c0"
+					(page "5")
 				)
 			)
 		)
