@@ -632,7 +632,7 @@
         "uuid": "c652495f-dd42-4f45-9891-1e05b67942c0"
       }
     ],
-    "used_designators": "D1-10",
+    "used_designators": "HPLEDs1,D1-20,R11-15",
     "variants": []
   },
   "sheets": [
