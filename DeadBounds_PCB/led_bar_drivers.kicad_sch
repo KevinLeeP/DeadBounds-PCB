@@ -5,6 +5,207 @@
 	(uuid "623342a4-5ed6-48ed-973c-3f6743d0180f")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -616,184 +817,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ECE319K:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 1.27 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at -5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "ECE319K:LED_D5.0mm"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://users.ece.utexas.edu/~valvano/mspm0/HLMP-4700.pdf"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -0.508 -1.778) (xy 1.016 -3.302) (xy 1.016 -2.54) (xy 1.016 -3.302) (xy 0.254 -3.302)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -3.048) (xy 1.016 -4.572) (xy 1.016 -3.81) (xy 1.016 -4.572) (xy 0.254 -4.572)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -2.54 1.27) (xy -1.27 -1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -1.27 -3.81 90)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -1.27 3.81 270)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -1050,34 +1073,28 @@
 		)
 	)
 	(junction
-		(at 74.93 55.88)
+		(at 85.09 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0f089be5-0c41-42e9-91cf-640cf3dd2ea2")
+		(uuid "037ecc0b-b535-42c9-a559-a809a6553e17")
 	)
 	(junction
-		(at 74.93 48.26)
+		(at 85.09 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "18527ed6-4bcb-473a-bd4d-781879a8d589")
+		(uuid "18059b01-e430-4be8-aa86-89ec0d580190")
 	)
 	(junction
-		(at 74.93 45.72)
+		(at 85.09 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "205f1606-bbe6-461e-bdc5-803674318e97")
+		(uuid "2e0a4d21-c0e8-4f81-826c-c1bc93a0e10b")
 	)
 	(junction
-		(at 74.93 58.42)
+		(at 85.09 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3efc2c45-d1d0-45c8-9bf2-b63b3c4ad67e")
-	)
-	(junction
-		(at 74.93 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42293151-8c36-4250-b254-629971a3a15a")
+		(uuid "311f22e5-d24a-4752-9361-7cbafcedd073")
 	)
 	(junction
 		(at 39.37 40.64)
@@ -1086,16 +1103,16 @@
 		(uuid "4f2755aa-0895-4759-a4a0-9b0e11f27cd1")
 	)
 	(junction
-		(at 74.93 53.34)
+		(at 85.09 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "688071ea-aa65-43e6-9edf-698cdf987df8")
+		(uuid "8457e5f7-7589-4f13-b94b-921b30bdd5ee")
 	)
 	(junction
-		(at 74.93 40.64)
+		(at 85.09 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "78b021e4-1d5d-43b3-a7cf-5844f05f0920")
+		(uuid "85f1c1f5-6898-484f-8fe3-314a460c3460")
 	)
 	(junction
 		(at 39.37 34.29)
@@ -1104,10 +1121,10 @@
 		(uuid "9dd13c38-35e3-4cfe-adcc-e195261c9e77")
 	)
 	(junction
-		(at 74.93 38.1)
+		(at 85.09 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a5f1c9b0-ec4d-4212-896b-d96b0e4d0704")
+		(uuid "a464cbeb-a1bc-42c0-98b9-54a90d4294ec")
 	)
 	(junction
 		(at 39.37 27.94)
@@ -1116,20 +1133,46 @@
 		(uuid "ac0fbc2e-f3f2-42fa-9237-9ace926b39eb")
 	)
 	(junction
-		(at 74.93 50.8)
+		(at 85.09 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bb0e6af4-4d07-4635-91fc-bf41174731ff")
+		(uuid "bfc18112-3491-46eb-936f-5c567737c8e8")
+	)
+	(junction
+		(at 85.09 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf3ed764-6901-41ec-b072-8c0f3b959510")
 	)
 	(wire
 		(pts
-			(xy 64.77 40.64) (xy 67.31 40.64)
+			(xy 64.77 43.18) (xy 74.93 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09093856-eda2-4d30-b459-82843725ca47")
+		(uuid "00b3565c-9be2-4f37-b88a-0bbe8058eba2")
+	)
+	(wire
+		(pts
+			(xy 64.77 50.8) (xy 74.93 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07afe150-cb58-4c69-a634-837068d3f296")
+	)
+	(wire
+		(pts
+			(xy 85.09 53.34) (xy 85.09 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "133c0a86-bb79-4d93-ad26-11742ebb8518")
 	)
 	(wire
 		(pts
@@ -1143,27 +1186,57 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 53.34) (xy 67.31 53.34)
+			(xy 85.09 58.42) (xy 82.55 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2a36b1e4-35b2-4dc7-8583-0a47b04dca54")
+		(uuid "25cc9e33-d16d-4aa1-9f5d-e8e0fbe733ef")
 	)
 	(wire
 		(pts
-			(xy 64.77 60.96) (xy 67.31 60.96)
+			(xy 85.09 55.88) (xy 82.55 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f874119-cc4a-4d47-9c8a-b3ff7fead5e5")
+		(uuid "2be3dfa1-71e5-49b1-9fee-3611b6529064")
 	)
 	(wire
 		(pts
-			(xy 64.77 58.42) (xy 67.31 58.42)
+			(xy 85.09 38.1) (xy 85.09 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e3183f9-6f63-4578-9239-946649eeae00")
+	)
+	(wire
+		(pts
+			(xy 64.77 53.34) (xy 74.93 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f7e8023-e5d3-43e7-9431-acca7146f9d4")
+	)
+	(wire
+		(pts
+			(xy 64.77 45.72) (xy 74.93 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b044e41-9bf7-483d-81e5-38acac45e8d3")
+	)
+	(wire
+		(pts
+			(xy 63.5 58.42) (xy 74.93 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1173,113 +1246,93 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 40.64) (xy 74.93 43.18)
+			(xy 85.09 48.26) (xy 85.09 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b72c93d-c301-46b4-a889-2ed941acfab1")
+		(uuid "52cc028d-c4b5-4f7d-bd24-673adfc43901")
 	)
 	(wire
 		(pts
-			(xy 74.93 50.8) (xy 74.93 53.34)
+			(xy 85.09 33.02) (xy 85.09 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ca76b1b-8c61-4fd7-8473-b92c00283667")
+		(uuid "5d33ac45-9371-4cab-890a-3cb58c336f0f")
 	)
 	(wire
 		(pts
-			(xy 74.93 43.18) (xy 74.93 45.72)
+			(xy 85.09 43.18) (xy 85.09 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4eea6c32-1837-4b91-9f7f-f355f6bc3c8d")
+		(uuid "698a39c3-b286-46fe-bdd2-b11f33a67661")
 	)
 	(wire
 		(pts
-			(xy 64.77 50.8) (xy 67.31 50.8)
+			(xy 85.09 48.26) (xy 82.55 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50983c3c-e00e-45f3-91a2-64ba66b8dd3b")
+		(uuid "741c4de5-af21-4624-9d96-ac5172a88040")
 	)
 	(wire
 		(pts
-			(xy 64.77 38.1) (xy 67.31 38.1)
+			(xy 85.09 40.64) (xy 85.09 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5af99214-113b-4deb-b4e1-ef0cea5e1d6d")
+		(uuid "7521e07d-d906-46da-b190-b8847a7e8c72")
 	)
 	(wire
 		(pts
-			(xy 74.93 45.72) (xy 74.93 48.26)
+			(xy 85.09 60.96) (xy 82.55 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d08e08d-676b-407f-915d-02d9ae16ede2")
+		(uuid "80fe9e8f-6fb9-4622-8198-5cc8fc094507")
 	)
 	(wire
 		(pts
-			(xy 74.93 53.34) (xy 74.93 55.88)
+			(xy 64.77 48.26) (xy 74.93 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "603ccb1e-c7ed-42c9-848e-9a5811714529")
+		(uuid "8c445331-1634-4256-a211-e5fdf4c6e7d8")
 	)
 	(wire
 		(pts
-			(xy 74.93 48.26) (xy 74.93 50.8)
+			(xy 62.23 60.96) (xy 74.93 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f89fde4-b28d-4138-8bb4-ea1ddcf5f598")
+		(uuid "924da3ee-76ed-4e7c-83ad-313edbf123e9")
 	)
 	(wire
 		(pts
-			(xy 64.77 45.72) (xy 67.31 45.72)
+			(xy 64.77 40.64) (xy 74.93 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "78f94369-15eb-4e48-af4b-79a68837e3eb")
-	)
-	(wire
-		(pts
-			(xy 74.93 38.1) (xy 74.93 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8da5bb47-d980-42f4-af36-c574e6b355d1")
-	)
-	(wire
-		(pts
-			(xy 64.77 48.26) (xy 67.31 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9134f51f-8d4c-41e0-b1ff-2042898b23f9")
+		(uuid "976ee44b-7af4-4bd6-bc01-f9def580680e")
 	)
 	(wire
 		(pts
@@ -1290,6 +1343,26 @@
 			(type default)
 		)
 		(uuid "97a93c13-e27b-4f37-8477-01c4d2f46c01")
+	)
+	(wire
+		(pts
+			(xy 85.09 58.42) (xy 85.09 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99452a45-a13b-44ad-ae03-3a039961dd87")
+	)
+	(wire
+		(pts
+			(xy 85.09 40.64) (xy 82.55 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b6b1295-4d2e-422c-b647-733992e10f95")
 	)
 	(wire
 		(pts
@@ -1313,6 +1386,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 50.8) (xy 85.09 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acf25166-30bd-4d68-8e62-ff8b25d583e0")
+	)
+	(wire
+		(pts
 			(xy 36.83 53.34) (xy 44.45 53.34)
 		)
 		(stroke
@@ -1323,7 +1406,27 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 55.88) (xy 67.31 55.88)
+			(xy 85.09 43.18) (xy 82.55 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c4aa3b-bb97-45f1-b8c2-06214a1a5c4c")
+	)
+	(wire
+		(pts
+			(xy 85.09 45.72) (xy 85.09 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ca0ce0-c765-49a9-acce-1b1719769346")
+	)
+	(wire
+		(pts
+			(xy 64.77 55.88) (xy 74.93 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1333,43 +1436,63 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 43.18) (xy 67.31 43.18)
+			(xy 85.09 50.8) (xy 82.55 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e9ba8bde-844d-4d2a-a35f-5b4d598be182")
+		(uuid "d8a86f6d-c9ca-448a-8f0e-7cd70c051c61")
 	)
 	(wire
 		(pts
-			(xy 74.93 38.1) (xy 77.47 38.1)
+			(xy 85.09 55.88) (xy 85.09 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ecc38792-f0fb-4284-841d-fcd28d4a1483")
+		(uuid "d8da5646-c744-4e28-ac70-262f47fc7e28")
 	)
 	(wire
 		(pts
-			(xy 74.93 55.88) (xy 74.93 58.42)
+			(xy 82.55 38.1) (xy 85.09 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "edad840b-c0e7-4251-94f5-36764d41ee85")
+		(uuid "daa6acfe-350d-4e17-bff6-10b963854cc7")
 	)
 	(wire
 		(pts
-			(xy 74.93 58.42) (xy 74.93 60.96)
+			(xy 85.09 53.34) (xy 82.55 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f671cf31-7564-4bb7-84a3-fc88cb5204ba")
+		(uuid "ee2c0d93-c8e5-427d-9f6e-e29e74875639")
+	)
+	(wire
+		(pts
+			(xy 64.77 38.1) (xy 74.93 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4beee92-e820-4c7d-ba59-fea0e8197d70")
+	)
+	(wire
+		(pts
+			(xy 85.09 45.72) (xy 82.55 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f531ce24-688f-45b9-b53d-cc43fe724824")
 	)
 	(global_label "GND"
 		(shape input)
@@ -1416,30 +1539,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "+5V"
-		(shape input)
-		(at 77.47 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3581cc01-7404-46c4-aa71-aa929c685d02")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.3257 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -1587,6 +1686,30 @@
 			)
 		)
 	)
+	(global_label "+5V"
+		(shape input)
+		(at 85.09 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b949304c-5f28-4616-bdd2-f2a11cf05336")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.9457 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(hierarchical_label "HPDAC0"
 		(shape input)
 		(at 31.75 40.64 180)
@@ -1711,8 +1834,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ECE319K:LED")
-		(at 71.12 46.99 270)
+		(lib_id "Device:LED")
+		(at 78.74 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1720,10 +1843,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f901063-3d03-437d-875d-59c5c87c4b99")
+		(uuid "16548788-b6cb-4034-8543-1946bb6c7853")
 		(property "Reference" "D4"
-			(at 69.5325 39.37 90)
+			(at 88.9 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1733,7 +1855,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 69.5325 41.91 90)
+			(at 92.456 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1742,8 +1864,8 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE319K:LED_D5.0mm"
-			(at 73.66 46.99 0)
+		(property "Footprint" ""
+			(at 78.74 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1753,8 +1875,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://users.ece.utexas.edu/~valvano/mspm0/HLMP-4700.pdf"
-			(at 73.66 46.99 0)
+		(property "Datasheet" ""
+			(at 78.74 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1765,7 +1887,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 71.12 46.99 0)
+			(at 78.74 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1775,11 +1897,22 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "c877c4a3-3f8e-4169-ba4b-2d17af8043b6")
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "e46c7086-ae9c-418a-9f9d-eeec27a459a0")
+			(uuid "f44bfa39-3835-48c7-b21f-2cf14d29d6a9")
+		)
+		(pin "2"
+			(uuid "31d31ac8-9a31-4053-a9fe-e46e4797ffb2")
 		)
 		(instances
 			(project "DeadBounds_PCB"
@@ -1870,8 +2003,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ECE319K:LED")
-		(at 71.12 41.91 270)
+		(lib_id "Device:LED")
+		(at 78.74 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1879,10 +2012,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d8b7e8a-0fc7-4f01-bec9-ced113f1025f")
-		(property "Reference" "D2"
-			(at 69.5325 34.29 90)
+		(uuid "26fc9268-1e2d-4c76-a647-c62f7902db34")
+		(property "Reference" "D10"
+			(at 88.9 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1892,7 +2024,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 69.5325 36.83 90)
+			(at 92.456 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1901,8 +2033,8 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE319K:LED_D5.0mm"
-			(at 73.66 41.91 0)
+		(property "Footprint" ""
+			(at 78.74 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1912,8 +2044,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://users.ece.utexas.edu/~valvano/mspm0/HLMP-4700.pdf"
-			(at 73.66 41.91 0)
+		(property "Datasheet" ""
+			(at 78.74 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1924,7 +2056,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 71.12 41.91 0)
+			(at 78.74 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1934,16 +2066,27 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "b8ff1098-4ba6-4d04-b5e8-d2c104ed88dc")
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "27bafcea-4735-4e4d-ba65-2e86e897d941")
+			(uuid "a80a73e3-32f8-49ef-b366-659014afe5cd")
+		)
+		(pin "2"
+			(uuid "133ca53a-27f1-4d9d-b5e8-bc7d77205e41")
 		)
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "D2")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -2108,166 +2251,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ECE319K:LED")
-		(at 71.12 62.23 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4238ebe4-0658-4f27-a47d-55b3d0fad3ae")
-		(property "Reference" "D10"
-			(at 69.5325 54.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 69.5325 57.15 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ECE319K:LED_D5.0mm"
-			(at 73.66 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://users.ece.utexas.edu/~valvano/mspm0/HLMP-4700.pdf"
-			(at 73.66 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 71.12 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "614f2184-c670-4b9b-ad0e-bd599b9c1d8a")
-		)
-		(pin "1"
-			(uuid "a1810868-25c3-4d79-b00d-f4cfbd5d54a7")
-		)
-		(instances
-			(project "DeadBounds_PCB"
-				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ECE319K:LED")
-		(at 71.12 52.07 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b8c2a52-441f-488c-b76e-dd2e1ae5ae6f")
-		(property "Reference" "D6"
-			(at 69.5325 44.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 69.5325 46.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ECE319K:LED_D5.0mm"
-			(at 73.66 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://users.ece.utexas.edu/~valvano/mspm0/HLMP-4700.pdf"
-			(at 73.66 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 71.12 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "985a321f-054c-4af1-9c1b-38c8cbbd1713")
-		)
-		(pin "1"
-			(uuid "e46267d4-530e-4365-98b6-b3c1ebcf005d")
-		)
-		(instances
-			(project "DeadBounds_PCB"
-				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 33.02 53.34 90)
 		(unit 1)
@@ -2348,8 +2331,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ECE319K:LED")
-		(at 71.12 54.61 270)
+		(lib_id "Device:LED")
+		(at 78.74 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2357,10 +2340,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e6c4b94-76c9-4674-ace0-4b1740f3ddb7")
-		(property "Reference" "D7"
-			(at 69.5325 46.99 90)
+		(uuid "6719dce4-d2e9-4012-a01d-72dd1171cd2c")
+		(property "Reference" "D1"
+			(at 88.9 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2370,7 +2352,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 69.5325 49.53 90)
+			(at 92.456 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2379,8 +2361,8 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE319K:LED_D5.0mm"
-			(at 73.66 54.61 0)
+		(property "Footprint" ""
+			(at 78.74 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2390,8 +2372,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://users.ece.utexas.edu/~valvano/mspm0/HLMP-4700.pdf"
-			(at 73.66 54.61 0)
+		(property "Datasheet" ""
+			(at 78.74 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2402,7 +2384,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 71.12 54.61 0)
+			(at 78.74 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2412,11 +2394,112 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "9380151a-7973-4d19-8d6e-60d1e89ba7e2")
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "3b55b4b4-1785-4494-80b3-1b8d6dee93ab")
+			(uuid "bbe8d426-a992-4aab-9f52-93dd29612045")
+		)
+		(pin "2"
+			(uuid "21d69955-49a7-4391-9c1e-3cc440fe10a3")
+		)
+		(instances
+			(project "DeadBounds_PCB"
+				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 78.74 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "793bdcaf-a1e9-457e-aaf2-bbb28b06da69")
+		(property "Reference" "D7"
+			(at 88.9 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 92.456 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 78.74 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e74c8c4-afd6-42e5-a62d-09b3cdc076ed")
+		)
+		(pin "2"
+			(uuid "03978a80-8400-49fe-a1ac-278630a6726a")
 		)
 		(instances
 			(project "DeadBounds_PCB"
@@ -2428,8 +2511,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ECE319K:LED")
-		(at 71.12 57.15 270)
+		(lib_id "Device:LED")
+		(at 78.74 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2437,10 +2520,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a3f8c56-5c91-42c8-9dcf-ed591f8800d2")
-		(property "Reference" "D8"
-			(at 69.5325 49.53 90)
+		(uuid "89dd7e80-4218-4a0b-909c-b4d3f54d04fc")
+		(property "Reference" "D5"
+			(at 88.9 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2450,7 +2532,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 69.5325 52.07 90)
+			(at 92.456 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2459,8 +2541,8 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE319K:LED_D5.0mm"
-			(at 73.66 57.15 0)
+		(property "Footprint" ""
+			(at 78.74 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2470,8 +2552,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://users.ece.utexas.edu/~valvano/mspm0/HLMP-4700.pdf"
-			(at 73.66 57.15 0)
+		(property "Datasheet" ""
+			(at 78.74 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2482,7 +2564,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 71.12 57.15 0)
+			(at 78.74 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2492,16 +2574,27 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "37316d84-1b2a-496c-8daf-c50359e7af15")
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "eda67315-534e-4199-90bb-b35d7a54188a")
+			(uuid "13098599-da55-4127-80b1-f193c7d3dbdb")
+		)
+		(pin "2"
+			(uuid "55eb52a7-98c4-4295-a1f6-98b09f0fff5e")
 		)
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "D8")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -2586,8 +2679,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ECE319K:LED")
-		(at 71.12 39.37 270)
+		(lib_id "Device:LED")
+		(at 78.74 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2595,10 +2688,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "906ed848-a9b2-4131-85d5-127bec2ffc11")
-		(property "Reference" "D1"
-			(at 69.5325 31.75 90)
+		(uuid "9a304298-c876-4d4b-afb1-2d739c240fc9")
+		(property "Reference" "D2"
+			(at 88.9 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2608,7 +2700,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 69.5325 34.29 90)
+			(at 92.456 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2617,8 +2709,8 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE319K:LED_D5.0mm"
-			(at 73.66 39.37 0)
+		(property "Footprint" ""
+			(at 78.74 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2628,8 +2720,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://users.ece.utexas.edu/~valvano/mspm0/HLMP-4700.pdf"
-			(at 73.66 39.37 0)
+		(property "Datasheet" ""
+			(at 78.74 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2640,7 +2732,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 71.12 39.37 0)
+			(at 78.74 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2650,16 +2742,27 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "81a4a0e9-ffdf-47ac-8fd4-50a97e01e653")
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "e94a5358-6142-407b-ad00-dedb0fa03359")
+			(uuid "3a0ce14e-b1e7-4222-95c3-02e23bd8a5e3")
+		)
+		(pin "2"
+			(uuid "b097f305-23c0-488e-ba67-9ad90a1154f6")
 		)
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2738,86 +2841,6 @@
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ECE319K:LED")
-		(at 71.12 59.69 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4eb721d-6a27-477f-84ff-1b164d725044")
-		(property "Reference" "D9"
-			(at 69.5325 52.07 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 69.5325 54.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ECE319K:LED_D5.0mm"
-			(at 73.66 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://users.ece.utexas.edu/~valvano/mspm0/HLMP-4700.pdf"
-			(at 73.66 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 71.12 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9a6538c1-e7a6-42d0-9849-37d5b18533aa")
-		)
-		(pin "1"
-			(uuid "91bf1574-e47c-40e4-bfed-e22715a1f595")
-		)
-		(instances
-			(project "DeadBounds_PCB"
-				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -2954,8 +2977,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ECE319K:LED")
-		(at 71.12 44.45 270)
+		(lib_id "Device:LED")
+		(at 78.74 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2963,10 +2986,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e45fe0ae-d875-4558-9ee3-cc723d19f256")
-		(property "Reference" "D3"
-			(at 69.5325 36.83 90)
+		(uuid "b0ea86ed-c427-4256-b801-18b4a7e7f82b")
+		(property "Reference" "D9"
+			(at 88.9 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2976,7 +2998,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 69.5325 39.37 90)
+			(at 92.456 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2985,8 +3007,8 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE319K:LED_D5.0mm"
-			(at 73.66 44.45 0)
+		(property "Footprint" ""
+			(at 78.74 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2996,8 +3018,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://users.ece.utexas.edu/~valvano/mspm0/HLMP-4700.pdf"
-			(at 73.66 44.45 0)
+		(property "Datasheet" ""
+			(at 78.74 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3008,7 +3030,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 71.12 44.45 0)
+			(at 78.74 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3018,11 +3040,112 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "9fb57975-9b73-424c-805f-d50433b5a2bd")
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "40336e72-bc55-4fe9-9235-6056faa437ec")
+			(uuid "f23fdae4-f493-477f-8744-eee99c806640")
+		)
+		(pin "2"
+			(uuid "af855562-98a4-4f1e-81b8-3d043929f482")
+		)
+		(instances
+			(project "DeadBounds_PCB"
+				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 78.74 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc8d3d17-9431-4c91-8ce1-2f2581bcfb17")
+		(property "Reference" "D3"
+			(at 88.9 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 92.456 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 78.74 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "628f9b39-f3c4-4845-b4c0-30d72f45ffae")
+		)
+		(pin "2"
+			(uuid "8d72a98a-ee09-4a7b-b3ce-3acc0facbdfb")
 		)
 		(instances
 			(project "DeadBounds_PCB"
@@ -3034,8 +3157,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ECE319K:LED")
-		(at 71.12 49.53 270)
+		(lib_id "Device:LED")
+		(at 78.74 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3043,10 +3166,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efa4a042-be65-4ee9-8107-329276b91106")
-		(property "Reference" "D5"
-			(at 69.5325 41.91 90)
+		(uuid "ed27a72c-5017-4fb2-ba9c-7dc67d0d7d13")
+		(property "Reference" "D8"
+			(at 88.9 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3056,7 +3178,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 69.5325 44.45 90)
+			(at 92.456 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3065,8 +3187,8 @@
 				)
 			)
 		)
-		(property "Footprint" "ECE319K:LED_D5.0mm"
-			(at 73.66 49.53 0)
+		(property "Footprint" ""
+			(at 78.74 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3076,8 +3198,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://users.ece.utexas.edu/~valvano/mspm0/HLMP-4700.pdf"
-			(at 73.66 49.53 0)
+		(property "Datasheet" ""
+			(at 78.74 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3088,7 +3210,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 71.12 49.53 0)
+			(at 78.74 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3098,16 +3220,117 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "e5ce7678-538f-4cfc-a042-09b1149a12b9")
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "b977b5fd-976a-4be3-a596-d1671018d16e")
+			(uuid "6a22efe2-a347-4829-8f3a-958c37a27b82")
+		)
+		(pin "2"
+			(uuid "95a03652-b7a2-4f3b-933f-e0b6ebbd8b68")
 		)
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "D5")
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 78.74 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eff32333-9445-48fc-b218-e80b31decafe")
+		(property "Reference" "D6"
+			(at 88.9 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 92.456 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 78.74 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1974ac7f-e257-425c-926f-e06fa337fd6f")
+		)
+		(pin "2"
+			(uuid "506d6307-d7f7-48a6-9dfc-36889dc6289b")
+		)
+		(instances
+			(project "DeadBounds_PCB"
+				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
+					(reference "D6")
 					(unit 1)
 				)
 			)
