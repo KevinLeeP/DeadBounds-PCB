@@ -1491,12 +1491,6 @@
 		(uuid "037ecc0b-b535-42c9-a559-a809a6553e17")
 	)
 	(junction
-		(at 248.92 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "086b6f27-2ded-4211-9d76-46d0d48be256")
-	)
-	(junction
 		(at 52.07 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1527,6 +1521,12 @@
 		(uuid "321b8e24-b5a1-458a-9747-ad3506ce9679")
 	)
 	(junction
+		(at 248.92 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bd788f0-65fb-4f04-bb2c-7e57b901d63a")
+	)
+	(junction
 		(at 71.12 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1545,12 +1545,6 @@
 		(uuid "5c796173-68c3-47d2-a825-c084febd219b")
 	)
 	(junction
-		(at 248.92 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62068b20-15a6-4fcf-a2c0-835b56d1a640")
-	)
-	(junction
 		(at 64.77 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1567,6 +1561,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "727b0204-9849-47aa-a9e1-d76852ed0a30")
+	)
+	(junction
+		(at 248.92 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a9a0346-9fec-4468-a64f-fe8406d60e7c")
 	)
 	(junction
 		(at 119.38 45.72)
@@ -1599,6 +1599,18 @@
 		(uuid "c734f0d5-dad3-409a-906a-8c9798295f46")
 	)
 	(junction
+		(at 248.92 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4bf0174-becf-44ca-9b7c-dd475a27113d")
+	)
+	(junction
+		(at 248.92 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e444acdf-c4af-496f-bd7e-c493adda4ba8")
+	)
+	(junction
 		(at 71.12 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1611,42 +1623,30 @@
 		(uuid "f090eaeb-cf75-4cb0-ac17-394f5be38715")
 	)
 	(junction
-		(at 248.92 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f270ec82-1dd5-4c01-9f17-45f4efa9463b")
-	)
-	(junction
 		(at 119.38 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3b0a081-3eca-4d6d-bda7-6949e0e133c9")
 	)
-	(junction
-		(at 248.92 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fee4624b-7d54-40b0-befd-14662bfeaeb8")
+	(no_connect
+		(at 220.98 55.88)
+		(uuid "61455d72-6969-4e2f-80a5-386202321945")
 	)
 	(no_connect
-		(at 220.98 48.26)
-		(uuid "09510ee7-2e9b-45fc-9a3e-877622b91606")
+		(at 220.98 66.04)
+		(uuid "6fdf6963-8ab1-42b9-b1ec-416c01288b48")
 	)
 	(no_connect
-		(at 220.98 63.5)
-		(uuid "2c4330be-8e4c-4ca2-83eb-269a593cb4e1")
+		(at 220.98 50.8)
+		(uuid "aede150c-59d5-47c2-84a6-d24dff81f3c6")
 	)
 	(no_connect
-		(at 220.98 68.58)
-		(uuid "bda88119-4c73-44ef-8763-e14d9d2a8fbc")
+		(at 220.98 45.72)
+		(uuid "c6af421d-5bd0-41fe-ae45-a6e3f7d61088")
 	)
 	(no_connect
-		(at 220.98 58.42)
-		(uuid "d30924ce-e465-40d2-85cc-a4c8c8d8ec79")
-	)
-	(no_connect
-		(at 220.98 53.34)
-		(uuid "fb3d7f53-ee1b-4401-bc64-2c3b37c59182")
+		(at 220.98 60.96)
+		(uuid "fbe55d51-66d8-47d9-9a9e-0067c86012ef")
 	)
 	(wire
 		(pts
@@ -1660,17 +1660,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 50.8) (xy 226.06 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0046e74d-1500-40ce-b919-b5a6c896045b")
-	)
-	(wire
-		(pts
-			(xy 92.71 68.58) (xy 97.79 68.58)
+			(xy 92.71 68.58) (xy 99.06 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1680,13 +1670,33 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 50.8) (xy 97.79 50.8)
+			(xy 92.71 50.8) (xy 99.06 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "00b3565c-9be2-4f37-b88a-0bbe8058eba2")
+	)
+	(wire
+		(pts
+			(xy 246.38 63.5) (xy 248.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02047711-994e-497d-9e9a-b100cf1684e4")
+	)
+	(wire
+		(pts
+			(xy 220.98 63.5) (xy 227.33 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02aefcb6-1e52-4408-858d-ecd54db25be4")
 	)
 	(wire
 		(pts
@@ -1700,7 +1710,17 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 58.42) (xy 97.79 58.42)
+			(xy 220.98 68.58) (xy 227.33 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "071ed6a3-8deb-4cbe-8e6f-7b93c404f2a6")
+	)
+	(wire
+		(pts
+			(xy 92.71 58.42) (xy 99.06 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1710,23 +1730,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 63.5) (xy 109.22 63.5)
+			(xy 106.68 63.5) (xy 109.22 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "084c5021-f4d8-4831-8f8b-8f6a18577699")
-	)
-	(wire
-		(pts
-			(xy 233.68 66.04) (xy 238.76 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a6f430d-d4af-4fe1-95d3-652b1b6ac429")
 	)
 	(wire
 		(pts
@@ -1770,17 +1780,17 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 66.04) (xy 248.92 66.04)
+			(xy 220.98 48.26) (xy 227.33 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "16b0e570-0ece-47f4-8c95-06c5f8ef93e1")
+		(uuid "16efb69d-0f49-40f6-b9ad-30ddc5b41437")
 	)
 	(wire
 		(pts
-			(xy 105.41 55.88) (xy 109.22 55.88)
+			(xy 106.68 55.88) (xy 109.22 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1810,6 +1820,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 63.5) (xy 238.76 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a36a26-9761-43d4-934b-08f0df8b3318")
+	)
+	(wire
+		(pts
 			(xy 180.34 35.56) (xy 180.34 38.1)
 		)
 		(stroke
@@ -1820,16 +1840,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 55.88) (xy 238.76 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27575ce2-a832-415f-a238-97eeb0b42f4d")
-	)
-	(wire
-		(pts
 			(xy 182.88 33.02) (xy 180.34 33.02)
 		)
 		(stroke
@@ -1837,6 +1847,16 @@
 			(type default)
 		)
 		(uuid "290107cb-d770-4e8a-88e8-468aded2d24f")
+	)
+	(wire
+		(pts
+			(xy 246.38 68.58) (xy 248.92 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2991ddb2-67eb-4da8-8ad4-3e1e0f965735")
 	)
 	(wire
 		(pts
@@ -1870,7 +1890,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 60.96) (xy 97.79 60.96)
+			(xy 92.71 60.96) (xy 99.06 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1880,13 +1900,23 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 50.8) (xy 109.22 50.8)
+			(xy 106.68 50.8) (xy 109.22 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2ffadf31-eb3f-4b00-ad24-cdc1ead49c99")
+	)
+	(wire
+		(pts
+			(xy 234.95 48.26) (xy 238.76 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31ea63b1-f2ae-4b66-bd69-4fc5b06273d2")
 	)
 	(wire
 		(pts
@@ -1900,7 +1930,27 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 53.34) (xy 97.79 53.34)
+			(xy 234.95 68.58) (xy 238.76 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3734f4f2-278e-44d3-b0b9-e293f1fcedda")
+	)
+	(wire
+		(pts
+			(xy 248.92 63.5) (xy 248.92 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3824895c-431e-43e5-92eb-52450b0631e1")
+	)
+	(wire
+		(pts
+			(xy 92.71 53.34) (xy 99.06 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1930,16 +1980,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 66.04) (xy 226.06 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4adc6c17-a68c-43c8-aa7b-b87224697ae5")
-	)
-	(wire
-		(pts
 			(xy 49.53 60.96) (xy 52.07 60.96)
 		)
 		(stroke
@@ -1950,13 +1990,13 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 55.88) (xy 248.92 55.88)
+			(xy 220.98 53.34) (xy 227.33 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f1c60d2-ffe2-4adc-b9c0-76ac34777909")
+		(uuid "506c0248-48a9-4b45-861c-86e1ed1b8a0d")
 	)
 	(wire
 		(pts
@@ -1970,17 +2010,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 50.8) (xy 248.92 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55141c08-4e9d-4a4a-931c-473e685fbc30")
-	)
-	(wire
-		(pts
-			(xy 105.41 48.26) (xy 109.22 48.26)
+			(xy 106.68 48.26) (xy 109.22 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2000,6 +2030,26 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 53.34) (xy 248.92 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a883f7d-9198-4c30-9f19-58df5cb90518")
+	)
+	(wire
+		(pts
+			(xy 234.95 53.34) (xy 238.76 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5abe2474-59eb-4f1f-bd63-b0827d70c1a9")
+	)
+	(wire
+		(pts
 			(xy 72.39 53.34) (xy 63.5 53.34)
 		)
 		(stroke
@@ -2007,6 +2057,16 @@
 			(type default)
 		)
 		(uuid "5aeb941d-6a9e-49dd-84d8-aeda116ac689")
+	)
+	(wire
+		(pts
+			(xy 248.92 40.64) (xy 248.92 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cba2e40-e5ab-4543-8d86-240b31cbaf85")
 	)
 	(wire
 		(pts
@@ -2070,26 +2130,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 40.64) (xy 248.92 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a338076-dbff-4edc-b895-a2b903de1a9a")
-	)
-	(wire
-		(pts
-			(xy 248.92 55.88) (xy 248.92 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6faa0f13-1e82-4d7a-9006-15e8d944dbaa")
-	)
-	(wire
-		(pts
 			(xy 119.38 55.88) (xy 116.84 55.88)
 		)
 		(stroke
@@ -2130,23 +2170,13 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 60.96) (xy 248.92 60.96)
+			(xy 246.38 53.34) (xy 248.92 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "805f3bb7-7cd4-4022-9e26-0c9d0a88dab1")
-	)
-	(wire
-		(pts
-			(xy 220.98 55.88) (xy 226.06 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80bea3d9-dcef-4e38-a087-4e891bce74a8")
+		(uuid "7bfb7378-7f0e-4a10-8472-ec7f44428003")
 	)
 	(wire
 		(pts
@@ -2160,7 +2190,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 60.96) (xy 109.22 60.96)
+			(xy 106.68 60.96) (xy 109.22 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2177,6 +2207,16 @@
 			(type default)
 		)
 		(uuid "83f5e4cc-1cc6-408c-a7a7-7a2eb20b35c3")
+	)
+	(wire
+		(pts
+			(xy 246.38 58.42) (xy 248.92 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879da49d-8085-4865-bf00-0a1a9ca60c8d")
 	)
 	(wire
 		(pts
@@ -2210,7 +2250,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 55.88) (xy 97.79 55.88)
+			(xy 92.71 55.88) (xy 99.06 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2240,6 +2280,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 58.42) (xy 248.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e04fcd1-8c99-4020-8d1f-46405c73c142")
+	)
+	(wire
+		(pts
 			(xy 58.42 29.21) (xy 60.96 29.21)
 		)
 		(stroke
@@ -2247,16 +2297,6 @@
 			(type default)
 		)
 		(uuid "8eed1191-da32-4a65-b732-528daa05e9af")
-	)
-	(wire
-		(pts
-			(xy 233.68 50.8) (xy 238.76 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90be65eb-9339-49aa-a0c9-d8d3d38a5b14")
 	)
 	(wire
 		(pts
@@ -2280,23 +2320,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 48.26) (xy 97.79 48.26)
+			(xy 92.71 48.26) (xy 99.06 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "976ee44b-7af4-4bd6-bc01-f9def580680e")
-	)
-	(wire
-		(pts
-			(xy 248.92 60.96) (xy 248.92 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9999b5c9-b1f9-4ee7-a877-639b85b98444")
 	)
 	(wire
 		(pts
@@ -2307,6 +2337,16 @@
 			(type default)
 		)
 		(uuid "9b6b1295-4d2e-422c-b647-733992e10f95")
+	)
+	(wire
+		(pts
+			(xy 220.98 58.42) (xy 227.33 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c3e1c98-cc78-41bd-a484-9ea46b2bcde2")
 	)
 	(wire
 		(pts
@@ -2340,7 +2380,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 45.72) (xy 109.22 45.72)
+			(xy 106.68 45.72) (xy 109.22 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2370,7 +2410,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 58.42) (xy 109.22 58.42)
+			(xy 106.68 58.42) (xy 109.22 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2407,16 +2447,6 @@
 			(type default)
 		)
 		(uuid "aae654fc-4504-4f29-b5ad-1e77431e66d7")
-	)
-	(wire
-		(pts
-			(xy 233.68 45.72) (xy 238.76 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aca8ab9c-076c-4aec-bc2d-83089081ca8f")
 	)
 	(wire
 		(pts
@@ -2470,7 +2500,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 66.04) (xy 109.22 66.04)
+			(xy 106.68 66.04) (xy 109.22 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2500,17 +2530,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 60.96) (xy 226.06 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b95a35e0-98a3-4044-a2e4-6e7f452af487")
-	)
-	(wire
-		(pts
-			(xy 105.41 53.34) (xy 109.22 53.34)
+			(xy 106.68 53.34) (xy 109.22 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2527,16 +2547,6 @@
 			(type default)
 		)
 		(uuid "baa630ac-a120-403c-bd24-aa81fbc83ce2")
-	)
-	(wire
-		(pts
-			(xy 220.98 45.72) (xy 226.06 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baeea8a2-6693-4574-9476-76093552b7e2")
 	)
 	(wire
 		(pts
@@ -2580,17 +2590,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 50.8) (xy 248.92 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7bd517c-b571-47cf-ba3f-586800e9345d")
-	)
-	(wire
-		(pts
-			(xy 92.71 66.04) (xy 97.79 66.04)
+			(xy 92.71 66.04) (xy 99.06 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2610,6 +2610,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 58.42) (xy 238.76 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac98722-f074-4d9d-a9ef-bcad0c5811db")
+	)
+	(wire
+		(pts
 			(xy 193.04 35.56) (xy 199.39 35.56)
 		)
 		(stroke
@@ -2620,7 +2630,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 63.5) (xy 97.79 63.5)
+			(xy 92.71 63.5) (xy 99.06 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2647,6 +2657,16 @@
 			(type default)
 		)
 		(uuid "d42c4aca-6a6d-4716-8979-04f6bada5caf")
+	)
+	(wire
+		(pts
+			(xy 248.92 48.26) (xy 248.92 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4c277b8-75be-45e0-a899-cb3d2a1ebbdf")
 	)
 	(wire
 		(pts
@@ -2710,16 +2730,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 60.96) (xy 238.76 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2e6a0f6-fbdd-4075-8e20-fbffaa00ae48")
-	)
-	(wire
-		(pts
 			(xy 64.77 35.56) (xy 64.77 38.1)
 		)
 		(stroke
@@ -2750,6 +2760,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 48.26) (xy 248.92 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e99efcff-d9ab-4cb2-9a99-8aa0e512a33d")
+	)
+	(wire
+		(pts
 			(xy 176.53 48.26) (xy 179.07 48.26)
 		)
 		(stroke
@@ -2760,7 +2780,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 68.58) (xy 109.22 68.58)
+			(xy 106.68 68.58) (xy 109.22 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2800,7 +2820,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 45.72) (xy 97.79 45.72)
+			(xy 92.71 45.72) (xy 99.06 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2827,26 +2847,6 @@
 			(type default)
 		)
 		(uuid "f531ce24-688f-45b9-b53d-cc43fe724824")
-	)
-	(wire
-		(pts
-			(xy 248.92 45.72) (xy 248.92 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6ab6af0-d8e6-498c-9b77-f4bf1dece98e")
-	)
-	(wire
-		(pts
-			(xy 246.38 45.72) (xy 248.92 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8c0fdc7-30d1-495c-adb9-7cf4658105af")
 	)
 	(wire
 		(pts
@@ -3444,7 +3444,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 229.87 50.8 90)
+		(at 231.14 53.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3452,9 +3452,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0b26ee67-3919-443b-a8ed-4eb91975fb04")
-		(property "Reference" "R30"
-			(at 222.758 49.784 90)
+		(uuid "04c71a5c-928b-42dc-af8e-d09abf27f0f4")
+		(property "Reference" "R32"
+			(at 223.52 52.324 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3463,8 +3463,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 226.314 49.784 90)
+		(property "Value" "2.2k"
+			(at 227.584 52.324 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3473,8 +3473,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 230.124 49.784 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 231.394 52.324 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3485,7 +3485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 50.8 0)
+			(at 231.14 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3496,7 +3496,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 229.87 50.8 0)
+			(at 231.14 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3507,15 +3507,105 @@
 			)
 		)
 		(pin "2"
-			(uuid "bb81e45e-be9e-4d6c-9b6a-1dadd4beafa1")
+			(uuid "68c04837-7cbc-4a54-b38c-ee58089d5160")
 		)
 		(pin "1"
-			(uuid "15f16a3e-21d4-4aee-8909-35f1f53df5f4")
+			(uuid "3820ccc0-1596-4a8f-aedc-e0c14e9f4fe1")
 		)
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R30")
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 242.57 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0f1fd6ba-a847-4f61-a1e1-cd22aac64f78")
+		(property "Reference" "D13"
+			(at 252.73 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 256.286 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DeadBounds Footprints:LTL_4213"
+			(at 242.57 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 242.57 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 242.57 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bfd1e2b-9ce3-458a-ac97-f9f2217c5ba8")
+		)
+		(pin "2"
+			(uuid "d796c8ed-3510-44ac-8b0b-aca593d9f351")
+		)
+		(instances
+			(project "DeadBounds_PCB"
+				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -3612,6 +3702,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 242.57 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "190c4942-25e6-4018-a783-ad70efe3f340")
+		(property "Reference" "D14"
+			(at 252.73 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 256.286 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DeadBounds Footprints:LTL_4213"
+			(at 242.57 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 242.57 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 242.57 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e62d8af-8387-40e0-95ad-458857cc8770")
+		)
+		(pin "2"
+			(uuid "dbedf060-5969-4224-917e-2e9f1266d8d3")
+		)
+		(instances
+			(project "DeadBounds_PCB"
+				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 45.72 60.96 90)
 		(unit 1)
@@ -3622,7 +3802,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2dc2a520-599c-4111-bde3-4efd5cd7e118")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 45.72 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3642,7 +3822,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 45.974 59.944 90)
 			(hide yes)
 			(show_name no)
@@ -3684,7 +3864,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3781,96 +3961,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 242.57 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2fa85b9c-e50c-48b0-9b1d-5eccd61deda1")
-		(property "Reference" "D11"
-			(at 252.73 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 256.286 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DeadBounds Footprints:LTL_4213"
-			(at 242.57 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 242.57 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 242.57 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0300f0ff-afb4-402b-aa74-ad63ad30ea92")
-		)
-		(pin "2"
-			(uuid "cd244c31-6fab-4ef0-b890-5a8bbbae456b")
-		)
-		(instances
-			(project "DeadBounds_PCB"
-				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 186.69 38.1 90)
 		(unit 1)
@@ -3881,7 +3971,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "395e276b-05a2-4c51-a51d-7c13d76a61d0")
-		(property "Reference" "R24"
+		(property "Reference" "R26"
 			(at 184.404 36.068 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3901,7 +3991,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 186.944 37.084 90)
 			(hide yes)
 			(show_name no)
@@ -3943,176 +4033,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 242.57 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3c13a1bf-78d2-41fc-9fd5-1034bd1e2473")
-		(property "Reference" "D15"
-			(at 252.73 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 256.286 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DeadBounds Footprints:LTL_4213"
-			(at 242.57 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 242.57 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 242.57 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c42f6ec1-92d8-4ffd-9cdd-1dfe77310c46")
-		)
-		(pin "2"
-			(uuid "0cb564cd-507e-4399-84ca-3ec19ea41e37")
-		)
-		(instances
-			(project "DeadBounds_PCB"
-				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 229.87 55.88 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3c4052e3-c76e-4f10-9db1-4240ada64313")
-		(property "Reference" "R31"
-			(at 222.758 54.864 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 226.314 54.864 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 230.124 54.864 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 229.87 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0ff8dd88-a888-4bf0-9441-222a6b46d859")
-		)
-		(pin "1"
-			(uuid "a740e355-4241-4ab5-bda7-ae72881a709a")
-		)
-		(instances
-			(project "DeadBounds_PCB"
-				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R31")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -4285,7 +4206,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 101.6 60.96 90)
+		(at 102.87 60.96 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4294,8 +4215,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4294fbe5-d933-42c4-813c-0fda549c479a")
-		(property "Reference" "R16"
-			(at 94.488 59.944 90)
+		(property "Reference" "R18"
+			(at 94.742 59.944 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4304,8 +4225,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 98.044 59.944 90)
+		(property "Value" "2.2k"
+			(at 99.314 59.944 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4314,8 +4235,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.854 59.944 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 103.124 59.944 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4326,7 +4247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 60.96 0)
+			(at 102.87 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4337,7 +4258,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 101.6 60.96 0)
+			(at 102.87 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4356,7 +4277,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -4373,7 +4294,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4590737b-20fc-47f4-a193-4eece6cf2ce2")
-		(property "Reference" "R20"
+		(property "Reference" "R22"
 			(at 173.99 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4393,7 +4314,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 174.244 59.944 90)
 			(hide yes)
 			(show_name no)
@@ -4435,97 +4356,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 242.57 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "55652f9d-05ab-496c-a7c8-23c15a7f64fe")
-		(property "Reference" "D14"
-			(at 252.73 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 256.286 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DeadBounds Footprints:LTL_4213"
-			(at 242.57 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 242.57 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 242.57 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8d5b8287-edd4-4c09-b9fd-e7f1534ba4ab")
-		)
-		(pin "2"
-			(uuid "c0e38060-a812-467a-87df-b3611db38698")
-		)
-		(instances
-			(project "DeadBounds_PCB"
-				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "D14")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -4542,7 +4373,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59f14083-10da-46a0-a8ec-06307a9437a6")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 62.992 26.924 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4562,7 +4393,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 65.024 28.194 90)
 			(hide yes)
 			(show_name no)
@@ -4604,7 +4435,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4621,7 +4452,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5cbb7b9e-4fec-4c30-b9b8-1ee686df8d9c")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 58.42 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4641,7 +4472,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 58.674 59.944 90)
 			(hide yes)
 			(show_name no)
@@ -4683,7 +4514,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4859,7 +4690,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 101.6 50.8 90)
+		(at 102.87 50.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4868,8 +4699,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68c8dd41-fcf3-47a4-98ea-62b8b635f633")
-		(property "Reference" "R12"
-			(at 94.488 49.784 90)
+		(property "Reference" "R14"
+			(at 94.742 49.784 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4878,8 +4709,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 98.044 49.784 90)
+		(property "Value" "2.2k"
+			(at 99.314 49.784 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4888,8 +4719,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.854 49.784 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 103.124 49.784 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4900,7 +4731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 50.8 0)
+			(at 102.87 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4911,7 +4742,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 101.6 50.8 0)
+			(at 102.87 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4930,7 +4761,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -5027,98 +4858,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 242.57 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "73a73b2c-1dae-4ed8-8b06-5c0ade7f8fd9")
-		(property "Reference" "D13"
-			(at 252.73 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 256.286 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DeadBounds Footprints:LTL_4213"
-			(at 242.57 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 242.57 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 242.57 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "692eb178-d197-413d-a63b-b3683bbd7a90")
-		)
-		(pin "2"
-			(uuid "bcf32f89-a383-4fe1-b328-e074615dee48")
-		)
-		(instances
-			(project "DeadBounds_PCB"
-				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
-		(at 101.6 53.34 90)
+		(at 102.87 53.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5127,8 +4868,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73e9b020-205b-4178-9d0c-03ceb0591458")
-		(property "Reference" "R13"
-			(at 94.488 52.324 90)
+		(property "Reference" "R15"
+			(at 94.742 52.324 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5137,8 +4878,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 98.044 52.324 90)
+		(property "Value" "2.2k"
+			(at 99.314 52.324 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5147,8 +4888,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.854 52.324 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 103.124 52.324 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5159,7 +4900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 53.34 0)
+			(at 102.87 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5170,7 +4911,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 101.6 53.34 0)
+			(at 102.87 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5189,176 +4930,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 229.87 45.72 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "74fe313e-5bd5-4fcf-9a3e-05c141036ad0")
-		(property "Reference" "R29"
-			(at 222.758 44.704 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 226.314 44.704 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 230.124 44.704 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 229.87 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f1079d38-84a0-42b2-b146-4bda94f3efc8")
-		)
-		(pin "1"
-			(uuid "4b4aac07-436c-486c-beea-17bdbda0d97e")
-		)
-		(instances
-			(project "DeadBounds_PCB"
-				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 242.57 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "76b96722-49ad-4aaf-b7a3-b388ea7fd227")
-		(property "Reference" "D12"
-			(at 252.73 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 256.286 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DeadBounds Footprints:LTL_4213"
-			(at 242.57 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 242.57 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 242.57 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9f4a3fba-9a22-4ef9-93db-148efa1f1c7f")
-		)
-		(pin "2"
-			(uuid "25e9846b-8f0d-4439-9242-ccd20e75c06a")
-		)
-		(instances
-			(project "DeadBounds_PCB"
-				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "D12")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -5456,7 +5028,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 101.6 55.88 90)
+		(at 102.87 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5465,8 +5037,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77568e32-3793-4130-b004-6ecfc5482d52")
-		(property "Reference" "R14"
-			(at 94.488 54.864 90)
+		(property "Reference" "R16"
+			(at 94.742 54.864 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5475,8 +5047,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 98.044 54.864 90)
+		(property "Value" "2.2k"
+			(at 99.314 54.864 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5485,8 +5057,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.854 54.864 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 103.124 54.864 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5497,7 +5069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 55.88 0)
+			(at 102.87 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5508,7 +5080,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 101.6 55.88 0)
+			(at 102.87 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5527,7 +5099,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5618,85 +5190,6 @@
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 229.87 60.96 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "89d082dc-3422-454c-b339-ec538bb24270")
-		(property "Reference" "R32"
-			(at 222.758 59.944 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 226.314 59.944 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 230.124 59.944 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 229.87 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "49ea89b7-a406-40a2-9430-d3aecb51b639")
-		)
-		(pin "1"
-			(uuid "d6248f64-86b7-4a8a-b135-1b13a2c3c487")
-		)
-		(instances
-			(project "DeadBounds_PCB"
-				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -5871,6 +5364,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 231.14 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "93e62268-fbaa-491c-87f9-41468f1558d2")
+		(property "Reference" "R33"
+			(at 223.52 57.404 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 227.584 57.404 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 231.394 57.404 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 231.14 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3bba8fdf-48bd-4912-8ae0-1c8786c49f67")
+		)
+		(pin "1"
+			(uuid "ea311bdc-d5ad-40c5-a667-8c2a8a96d8f1")
+		)
+		(instances
+			(project "DeadBounds_PCB"
+				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 231.14 63.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9621629c-d5bd-481d-b76c-2f245a342dc3")
+		(property "Reference" "R34"
+			(at 223.52 62.484 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 227.584 62.484 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 231.394 62.484 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 231.14 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b87a6726-1320-47bd-b49a-f6446ad8719d")
+		)
+		(pin "1"
+			(uuid "a50773e9-8461-4600-9322-6312522692dc")
+		)
+		(instances
+			(project "DeadBounds_PCB"
+				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 113.03 48.26 0)
 		(unit 1)
@@ -5971,7 +5622,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c294c7a-3c26-4bd6-84f2-81c117843567")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 52.832 26.924 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5991,7 +5642,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 54.864 28.194 90)
 			(hide yes)
 			(show_name no)
@@ -6033,7 +5684,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6050,7 +5701,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3153c30-496f-4be1-9628-3eb4caf5213a")
-		(property "Reference" "R21"
+		(property "Reference" "R23"
 			(at 181.102 26.924 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6070,7 +5721,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 183.134 28.194 90)
 			(hide yes)
 			(show_name no)
@@ -6112,7 +5763,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R21")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -6129,7 +5780,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa212886-70e4-4f38-b4f4-568f57160b06")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 52.324 46.228 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6149,7 +5800,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 54.864 47.244 90)
 			(hide yes)
 			(show_name no)
@@ -6191,7 +5842,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6199,7 +5850,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 101.6 66.04 90)
+		(at 102.87 66.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6208,8 +5859,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac5d4eca-7e2b-4984-8139-691db732ddbc")
-		(property "Reference" "R18"
-			(at 94.488 65.024 90)
+		(property "Reference" "R20"
+			(at 94.742 65.024 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6218,8 +5869,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 98.044 65.024 90)
+		(property "Value" "2.2k"
+			(at 99.314 65.024 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6228,8 +5879,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.854 65.024 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 103.124 65.024 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6240,7 +5891,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 66.04 0)
+			(at 102.87 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6251,7 +5902,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 101.6 66.04 0)
+			(at 102.87 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6270,7 +5921,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R18")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -6288,7 +5939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad9b9c12-8650-4a84-84cb-d24febd1ad2f")
-		(property "Reference" "HP_LEDs1"
+		(property "Reference" "HP_DRIVER1"
 			(at 84.6933 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6400,7 +6051,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "HP_LEDs1")
+					(reference "HP_DRIVER1")
 					(unit 1)
 				)
 			)
@@ -6408,7 +6059,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 101.6 48.26 90)
+		(at 102.87 48.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6417,8 +6068,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b23d4aea-f34a-403b-a478-5cf33c22b4c5")
-		(property "Reference" "R11"
-			(at 94.488 47.244 90)
+		(property "Reference" "R13"
+			(at 94.742 47.244 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6427,8 +6078,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 98.044 47.244 90)
+		(property "Value" "2.2k"
+			(at 99.314 47.244 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6437,8 +6088,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.854 47.244 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 103.124 47.244 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6449,7 +6100,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 48.26 0)
+			(at 102.87 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6460,7 +6111,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 101.6 48.26 0)
+			(at 102.87 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6479,7 +6130,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6496,7 +6147,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b462f598-7346-4c34-8ed4-28ee826309e4")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 55.88 31.242 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6516,7 +6167,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 58.674 32.004 90)
 			(hide yes)
 			(show_name no)
@@ -6558,7 +6209,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6566,7 +6217,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 101.6 58.42 90)
+		(at 231.14 48.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6574,9 +6225,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "bbfd7adf-2b9d-4adf-bcf1-389102cf1a01")
-		(property "Reference" "R15"
-			(at 94.488 57.404 90)
+		(uuid "b543c49b-6503-4d46-97d9-9b7cc8bc3b46")
+		(property "Reference" "R31"
+			(at 223.52 47.244 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6585,8 +6236,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 98.044 57.404 90)
+		(property "Value" "2.2k"
+			(at 227.584 47.244 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6595,8 +6246,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.854 57.404 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 231.394 47.244 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6607,7 +6258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 58.42 0)
+			(at 231.14 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6618,7 +6269,86 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 101.6 58.42 0)
+			(at 231.14 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "93b78e14-22a0-4cce-bfa4-39110fcad40e")
+		)
+		(pin "1"
+			(uuid "f1ee717d-3d8a-4ffa-a20a-9a1a6b2166a8")
+		)
+		(instances
+			(project "DeadBounds_PCB"
+				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 102.87 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bbfd7adf-2b9d-4adf-bcf1-389102cf1a01")
+		(property "Reference" "R17"
+			(at 94.742 57.404 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 99.314 57.404 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 103.124 57.404 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 102.87 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6637,7 +6367,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6654,7 +6384,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be2c9166-a76f-49f9-b3d1-302e058d3bd1")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 56.134 36.068 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6674,7 +6404,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 58.674 37.084 90)
 			(hide yes)
 			(show_name no)
@@ -6716,7 +6446,97 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R5")
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 242.57 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "be3a4a2e-9787-4db1-9172-a5ff5fe9a6a5")
+		(property "Reference" "D15"
+			(at 252.73 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 256.286 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DeadBounds Footprints:LTL_4213"
+			(at 242.57 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 242.57 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 242.57 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d903649d-076f-4d6d-8360-25608e5e46fd")
+		)
+		(pin "2"
+			(uuid "1dd696ef-6792-4621-b965-b2b7bfb86010")
+		)
+		(instances
+			(project "DeadBounds_PCB"
+				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -6733,7 +6553,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "befbdac8-5983-4471-b000-3c708320f5e8")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 62.484 46.228 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6753,7 +6573,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 65.024 47.244 90)
 			(hide yes)
 			(show_name no)
@@ -6795,7 +6615,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -6812,7 +6632,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3a001bd-825e-4f91-b3ea-82c2f86d360f")
-		(property "Reference" "R25"
+		(property "Reference" "R27"
 			(at 183.896 39.878 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6832,7 +6652,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 186.944 40.894 90)
 			(hide yes)
 			(show_name no)
@@ -6874,7 +6694,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R25")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -6891,7 +6711,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c58a4f25-ecb6-40b2-8fb4-72971e4e35df")
-		(property "Reference" "R28"
+		(property "Reference" "R30"
 			(at 190.754 46.228 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6911,7 +6731,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 193.294 47.244 90)
 			(hide yes)
 			(show_name no)
@@ -6953,15 +6773,15 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R28")
+					(reference "R30")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 229.87 66.04 90)
+		(lib_id "Device:LED")
+		(at 242.57 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6969,9 +6789,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "cc0982e9-a3c2-48b2-b90f-2873d046061b")
-		(property "Reference" "R33"
-			(at 222.758 65.024 90)
+		(uuid "c6f35494-8eac-451a-af7e-7db6d8d3fa6f")
+		(property "Reference" "D11"
+			(at 252.73 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6980,8 +6800,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 226.314 65.024 90)
+		(property "Value" "LED"
+			(at 256.286 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6990,8 +6810,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 230.124 65.024 90)
+		(property "Footprint" "DeadBounds Footprints:LTL_4213"
+			(at 242.57 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7002,7 +6822,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 66.04 0)
+			(at 242.57 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7012,8 +6832,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 229.87 66.04 0)
+		(property "Description" "Light emitting diode"
+			(at 242.57 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7023,16 +6843,27 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "c39c1c0e-0bef-4103-8904-61295c83631d")
+		(property "Sim.Pins" "1=K 2=A"
+			(at 242.57 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "a4204372-510d-4218-b39d-b7698f419b77")
+			(uuid "dfb2e0a5-bbdc-43cb-bd4a-1b3b558ddcab")
+		)
+		(pin "2"
+			(uuid "d4b7fb2a-a400-4b68-b70a-c925db54fdd5")
 		)
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R33")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -7136,7 +6967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf33c584-f59c-44d6-accc-23ba4b5a3b58")
-		(property "Reference" "R23"
+		(property "Reference" "R25"
 			(at 184.15 31.242 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7156,7 +6987,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 186.944 32.004 90)
 			(hide yes)
 			(show_name no)
@@ -7198,7 +7029,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R23")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -7215,7 +7046,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d0579729-da62-4a3d-b6db-5dc238853cdd")
-		(property "Reference" "R26"
+		(property "Reference" "R28"
 			(at 186.69 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7235,7 +7066,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 186.944 59.944 90)
 			(hide yes)
 			(show_name no)
@@ -7277,7 +7108,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R26")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -7294,7 +7125,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d30f1af0-b5ae-4ce2-ad97-2a6281302993")
-		(property "Reference" "R27"
+		(property "Reference" "R29"
 			(at 191.262 26.924 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7314,7 +7145,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 193.294 28.194 90)
 			(hide yes)
 			(show_name no)
@@ -7356,7 +7187,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R27")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -7364,7 +7195,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 101.6 45.72 90)
+		(at 102.87 45.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7373,8 +7204,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d612c0d4-bde6-48bb-9029-628caad76f63")
-		(property "Reference" "R10"
-			(at 94.488 44.704 90)
+		(property "Reference" "R12"
+			(at 94.742 44.704 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7383,8 +7214,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 98.044 44.704 90)
+		(property "Value" "2.2k"
+			(at 99.314 44.704 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7393,8 +7224,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.854 44.704 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 103.124 44.704 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7405,7 +7236,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 45.72 0)
+			(at 102.87 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7416,7 +7247,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 101.6 45.72 0)
+			(at 102.87 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7435,7 +7266,97 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R10")
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 242.57 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "da7377e8-651e-4a4b-b748-f9f442e41213")
+		(property "Reference" "D12"
+			(at 252.73 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 256.286 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DeadBounds Footprints:LTL_4213"
+			(at 242.57 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 242.57 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 242.57 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9bbe4364-5e4a-4fed-929b-9d3204b747b3")
+		)
+		(pin "2"
+			(uuid "62cd5bbc-371f-4687-bb1a-016aedb8a2f2")
+		)
+		(instances
+			(project "DeadBounds_PCB"
+				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -7533,7 +7454,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 101.6 68.58 90)
+		(at 102.87 68.58 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7542,8 +7463,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e160157b-560a-4369-b9a6-ead5f4da95ec")
-		(property "Reference" "R19"
-			(at 94.488 67.564 90)
+		(property "Reference" "R21"
+			(at 94.742 67.564 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7552,8 +7473,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 98.044 67.564 90)
+		(property "Value" "2.2k"
+			(at 99.314 67.564 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7562,8 +7483,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.854 67.564 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 103.124 67.564 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7574,7 +7495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 68.58 0)
+			(at 102.87 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7585,7 +7506,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 101.6 68.58 0)
+			(at 102.87 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7604,7 +7525,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R19")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -7621,7 +7542,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e804e971-9b4d-449c-b460-b3d21d61801f")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 55.626 39.878 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7641,7 +7562,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 58.674 40.894 90)
 			(hide yes)
 			(show_name no)
@@ -7683,7 +7604,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7700,7 +7621,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb193721-1e07-4af8-b446-caa9f657c81e")
-		(property "Reference" "R22"
+		(property "Reference" "R24"
 			(at 180.594 46.228 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7720,7 +7641,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 183.134 47.244 90)
 			(hide yes)
 			(show_name no)
@@ -7762,7 +7683,86 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R22")
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 231.14 68.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef115595-ea06-4ae9-95ac-55cb84cc399b")
+		(property "Reference" "R35"
+			(at 223.52 67.564 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 227.584 67.564 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 231.394 67.564 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 231.14 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b34a14e6-2d90-406c-ad11-f6c2a5ba9912")
+		)
+		(pin "1"
+			(uuid "a7c68456-8f69-43de-83e5-bb2a14ca79ac")
+		)
+		(instances
+			(project "DeadBounds_PCB"
+				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -7860,7 +7860,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 101.6 63.5 90)
+		(at 102.87 63.5 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7869,8 +7869,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f220f0a2-1fca-41e5-8c9f-bc3cbe4e337e")
-		(property "Reference" "R17"
-			(at 94.488 62.484 90)
+		(property "Reference" "R19"
+			(at 94.742 62.484 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7879,8 +7879,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 98.044 62.484 90)
+		(property "Value" "2.2k"
+			(at 99.314 62.484 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7889,8 +7889,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.854 62.484 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 103.124 62.484 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7901,7 +7901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 63.5 0)
+			(at 102.87 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7912,7 +7912,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 101.6 63.5 0)
+			(at 102.87 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7931,7 +7931,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "R17")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -7949,7 +7949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2e753aa-4bec-479f-8a56-85f024259bff")
-		(property "Reference" "AMMO_LEDs1"
+		(property "Reference" "AMMO_DRIVER1"
 			(at 212.9633 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8061,7 +8061,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/7c7086a9-e41d-4924-bac0-297d12e2c7f8"
-					(reference "AMMO_LEDs1")
+					(reference "AMMO_DRIVER1")
 					(unit 1)
 				)
 			)

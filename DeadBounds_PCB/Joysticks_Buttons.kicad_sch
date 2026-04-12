@@ -1545,7 +1545,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2664fa14-a513-4b5e-aafe-0a6afcd753b8")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 99.7585 55.5625 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1607,7 +1607,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/647be0ff-a9ec-4a97-94e4-73e3782c2387"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -1624,7 +1624,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2bcf49a6-7a07-4e2e-a8cc-3bd7e27aa09f")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 74.3585 55.5625 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1686,7 +1686,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/647be0ff-a9ec-4a97-94e4-73e3782c2387"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -1873,7 +1873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b64ec31-4949-4c08-9c7d-91de11ad7206")
-		(property "Reference" "R44"
+		(property "Reference" "R2"
 			(at 110.49 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1895,7 +1895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 108.966 72.644 90)
 			(hide yes)
 			(show_name no)
@@ -1937,7 +1937,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/647be0ff-a9ec-4a97-94e4-73e3782c2387"
-					(reference "R44")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2202,7 +2202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c83f6563-cb12-499b-b645-c899f8a0d9d4")
-		(property "Reference" "R45"
+		(property "Reference" "R1"
 			(at 85.09 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2224,7 +2224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 83.566 72.644 90)
 			(hide yes)
 			(show_name no)
@@ -2266,7 +2266,7 @@
 		(instances
 			(project "DeadBounds_PCB"
 				(path "/c652495f-dd42-4f45-9891-1e05b67942c0/647be0ff-a9ec-4a97-94e4-73e3782c2387"
-					(reference "R45")
+					(reference "R1")
 					(unit 1)
 				)
 			)

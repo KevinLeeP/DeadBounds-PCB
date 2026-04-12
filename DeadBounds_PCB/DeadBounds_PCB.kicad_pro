@@ -632,7 +632,7 @@
         "uuid": "c652495f-dd42-4f45-9891-1e05b67942c0"
       }
     ],
-    "used_designators": "Trigger1-2,HPLEDs1,D1-28,Joystick2(Look)1,R1-57,HP_LEDs1,LCD1,Joystick1(Move)1,J1-4,AMMO_LEDs1,LS1,U1,#PWR1-12,C1-2",
+    "used_designators": "Trigger1-2,HPLEDs1,D1-28,Joystick2(Look)1,R1-57,HP_LEDs1,LCD1,Joystick1(Move)1,J1-5,AMMO_LEDs1,LS1,HP_DRIVER1,U1,#PWR1-12,C1-2,AMMO_DRIVER1,MCU1,SW1-2",
     "variants": []
   },
   "sheets": [
@@ -646,7 +646,7 @@
     ],
     [
       "7c7086a9-e41d-4924-bac0-297d12e2c7f8",
-      "LED Bar Drivers"
+      "LED Bar Drivers + DAC4s"
     ],
     [
       "8be2fbc8-3e56-4fbf-8c37-1c5635a7d56d",
