@@ -64,7 +64,7 @@
 		(symbol "HiLetgo_ST7735_1_1"
 			(rectangle
 				(start -15.24 17.78)
-				(end 8.89 -36.83)
+				(end 8.89 -25.4)
 				(stroke
 					(width 0)
 					(type solid)
@@ -75,16 +75,16 @@
 				)
 			)
 			(pin input line
-				(at -17.78 15.24 0)
+				(at -17.78 -22.86 0)
 				(length 2.54)
-				(name "VCC"
+				(name "LED-"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -93,16 +93,16 @@
 				)
 			)
 			(pin input line
-				(at -17.78 11.43 0)
+				(at -17.78 -20.32 0)
 				(length 2.54)
-				(name "GND"
+				(name "LED+"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -111,16 +111,16 @@
 				)
 			)
 			(pin input line
-				(at -17.78 7.62 0)
+				(at -17.78 -17.78 0)
 				(length 2.54)
-				(name "NC"
+				(name "SD_CS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -129,16 +129,106 @@
 				)
 			)
 			(pin input line
-				(at -17.78 3.81 0)
+				(at -17.78 -15.24 0)
 				(length 2.54)
-				(name "RESET"
+				(name "MOSI"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -12.7 0)
+				(length 2.54)
+				(name "MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -10.16 0)
+				(length 2.54)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -7.62 0)
+				(length 2.54)
+				(name "CS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -5.08 0)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -2.54 0)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -156,7 +246,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -165,16 +255,16 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -3.81 0)
+				(at -17.78 2.54 0)
 				(length 2.54)
-				(name "SDA"
+				(name "RESET"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -183,16 +273,16 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -7.62 0)
+				(at -17.78 5.08 0)
 				(length 2.54)
-				(name "SCL"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -201,16 +291,16 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -11.43 0)
+				(at -17.78 7.62 0)
 				(length 2.54)
-				(name "CS"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -219,16 +309,16 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -15.24 0)
+				(at -17.78 10.16 0)
 				(length 2.54)
-				(name "SCK"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -237,16 +327,16 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -19.05 0)
+				(at -17.78 15.24 0)
 				(length 2.54)
-				(name "MISO"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -255,70 +345,16 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -22.86 0)
+				(at -17.78 12.7 0)
 				(length 2.54)
-				(name "MOSI"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -17.78 -26.67 0)
-				(length 2.54)
-				(name "SD_CS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -17.78 -30.48 0)
-				(length 2.54)
-				(name "LED+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -17.78 -34.29 0)
-				(length 2.54)
-				(name "LED-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)

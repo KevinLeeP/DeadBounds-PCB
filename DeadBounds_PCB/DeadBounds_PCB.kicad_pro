@@ -632,7 +632,7 @@
         "uuid": "c652495f-dd42-4f45-9891-1e05b67942c0"
       }
     ],
-    "used_designators": "HPLEDs1,D1-20,R11-15",
+    "used_designators": "Trigger1-2,HPLEDs1,D1-28,Joystick2(Look)1,R1-57,HP_LEDs1,LCD1,Joystick1(Move)1,J1-4,AMMO_LEDs1,LS1,U1,#PWR1-12,C1-2",
     "variants": []
   },
   "sheets": [

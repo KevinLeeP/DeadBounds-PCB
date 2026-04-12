@@ -1296,96 +1296,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 139.7 12.065)
-		(end 254 152.4)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "05ee8f44-b3de-4d6d-81fb-cbfa30628bca")
-	)
-	(rectangle
-		(start 254 12.065)
-		(end 407.67 152.4)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "62b6c98f-2720-43ab-bdef-ae20135880e6")
-	)
-	(rectangle
-		(start 139.7 152.4)
-		(end 254 285.115)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "895b1058-4d55-49b8-acc7-19ff868e1c92")
-	)
-	(rectangle
-		(start 12.065 152.4)
-		(end 139.7 285.115)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "d11d0ecd-4e90-4cc4-a22d-0db1b95155fd")
-	)
-	(rectangle
-		(start 12.065 11.43)
-		(end 139.7 152.4)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "f4404f1b-63fe-4ce4-9aa6-c3ce50737ea4")
-	)
-	(text "Joystick ADCs + Buttons\n"
-		(exclude_from_sim no)
-		(at 73.406 162.052 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "048042b0-3347-4fc0-8fd5-1ce030df15b3")
-	)
-	(text "LED Bar Drivers"
-		(exclude_from_sim no)
-		(at 70.612 18.288 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "69998410-5a5d-470e-b19d-46f166ab7dd2")
-	)
-	(text "HiLetGo 160 x 128 LCD"
-		(exclude_from_sim no)
-		(at 197.612 161.798 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "b0711738-3850-4a54-8da1-4f9eec9fb2f8")
-	)
 	(text "MSPM0 MCU"
 		(exclude_from_sim no)
 		(at 196.596 19.558 0)
@@ -1396,15 +1306,295 @@
 		)
 		(uuid "dd6057ed-ab40-4b60-abac-0773d5a1c53d")
 	)
-	(text "6-Bit DAC\n"
+	(text "Audio 6-bit DAC\n"
 		(exclude_from_sim no)
-		(at 329.692 17.78 0)
+		(at 265.176 36.576 0)
 		(effects
 			(font
 				(size 1.905 1.905)
 			)
 		)
 		(uuid "fed9dade-6fa6-4e59-9832-e34a85a37946")
+	)
+	(wire
+		(pts
+			(xy 238.76 58.42) (xy 238.76 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0695ab34-2649-4be1-b570-7fcdd6a97ea7")
+	)
+	(wire
+		(pts
+			(xy 238.76 68.58) (xy 251.46 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4cd918-b149-4e79-bbfb-b6c319be33c3")
+	)
+	(wire
+		(pts
+			(xy 227.33 48.26) (xy 250.19 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f971293-c674-453a-b682-e9f25e851519")
+	)
+	(wire
+		(pts
+			(xy 232.41 66.04) (xy 227.33 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "205bb445-8427-4108-97bf-057d84c6a1e0")
+	)
+	(wire
+		(pts
+			(xy 248.92 78.74) (xy 251.46 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b7a762-5ce2-429e-b3e8-cfb1969394de")
+	)
+	(wire
+		(pts
+			(xy 147.32 92.71) (xy 152.4 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e9130ea-0b98-4015-b2fc-3ed93fdf77fa")
+	)
+	(wire
+		(pts
+			(xy 234.95 63.5) (xy 234.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c3dd2cb-7adc-4694-98e6-3d099c6d0f94")
+	)
+	(wire
+		(pts
+			(xy 227.33 50.8) (xy 250.19 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d38ef9c-8751-4ef2-8375-0b7c78e1c7b8")
+	)
+	(wire
+		(pts
+			(xy 227.33 45.72) (xy 250.19 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "888e8439-68ba-4611-92c8-3234046278b7")
+	)
+	(wire
+		(pts
+			(xy 147.32 81.28) (xy 166.37 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e661648-c145-4113-bbc1-f62cf0461590")
+	)
+	(wire
+		(pts
+			(xy 147.32 111.76) (xy 166.37 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91b138e8-c24b-4378-8a7d-0488ff354653")
+	)
+	(wire
+		(pts
+			(xy 232.41 76.2) (xy 232.41 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "975234ee-f234-44c7-a439-87fa1177de87")
+	)
+	(wire
+		(pts
+			(xy 232.41 81.28) (xy 227.33 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a3dbe0d-df24-4d55-badd-cadd2c364f27")
+	)
+	(wire
+		(pts
+			(xy 234.95 71.12) (xy 251.46 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e10503b-a831-4bb9-ac84-de35501e9ed4")
+	)
+	(wire
+		(pts
+			(xy 227.33 43.18) (xy 250.19 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0a0c6ea-093f-475b-b561-f20adc60f64b")
+	)
+	(wire
+		(pts
+			(xy 227.33 58.42) (xy 238.76 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a703235f-326d-49a0-89a7-d1e73ad4e346")
+	)
+	(wire
+		(pts
+			(xy 227.33 55.88) (xy 250.19 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd552f8-d8cb-4513-90bd-07e8d44f8917")
+	)
+	(wire
+		(pts
+			(xy 232.41 73.66) (xy 232.41 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c460185d-36de-4537-82ef-391e9cefbba7")
+	)
+	(wire
+		(pts
+			(xy 147.32 95.25) (xy 152.4 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d82cb645-c784-4d38-8059-b50c618ae01c")
+	)
+	(wire
+		(pts
+			(xy 232.41 73.66) (xy 251.46 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d95d1817-ece1-4b57-a4c4-8d2ef15eaec1")
+	)
+	(wire
+		(pts
+			(xy 147.32 109.22) (xy 166.37 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea824e51-ec9f-4af9-87d6-5acc05bd4f3c")
+	)
+	(wire
+		(pts
+			(xy 251.46 76.2) (xy 232.41 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed8f58f0-a60e-4784-9974-f999bfac6964")
+	)
+	(wire
+		(pts
+			(xy 227.33 53.34) (xy 250.19 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd00619-cfc8-419b-8001-e50cba3f3038")
+	)
+	(wire
+		(pts
+			(xy 227.33 63.5) (xy 234.95 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f25a01cc-d4ba-45aa-a3d2-0dee9b52b605")
+	)
+	(label "SWLang"
+		(at 152.4 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76bd056e-ff9a-4cde-ab13-3dfee21ef3c2")
+	)
+	(label "SWShoot"
+		(at 152.4 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9cb0d59b-a3cb-4819-a20f-e70e862539ce")
+	)
+	(label "D{slash}C_LCD"
+		(at 248.92 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c7db38aa-372b-4627-8331-c7d9c0012bd4")
+	)
+	(label "D{slash}C_LCD"
+		(at 166.37 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e5d6c14b-5b53-4f67-b0c3-a8eaad3c75d8")
 	)
 	(symbol
 		(lib_id "DeadBounds_Symbols:MSPM0G3507SPMR")
@@ -1675,8 +1865,8 @@
 		)
 	)
 	(sheet
-		(at 51.435 188.595)
-		(size 46.99 25.4)
+		(at 121.92 74.295)
+		(size 25.4 46.99)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1691,7 +1881,7 @@
 		)
 		(uuid "647be0ff-a9ec-4a97-94e4-73e3782c2387")
 		(property "Sheetname" "Joysticks and Buttons"
-			(at 51.435 187.8834 0)
+			(at 121.92 73.5834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1702,7 +1892,7 @@
 			)
 		)
 		(property "Sheetfile" "Joysticks_Buttons.kicad_sch"
-			(at 51.435 214.5796 0)
+			(at 121.92 121.8696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1710,6 +1900,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SWLang" input
+			(at 147.32 95.25 0)
+			(uuid "f321286a-860f-48bc-b20e-04fe575c225d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWShoot" input
+			(at 147.32 92.71 0)
+			(uuid "b89dca5c-fd2d-479e-add2-b65d20098ab0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VRX2" input
+			(at 147.32 81.28 0)
+			(uuid "b6faf226-2c58-45c8-836c-bb5ce01d9d04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VRX1" input
+			(at 147.32 111.76 0)
+			(uuid "2af44d9e-e38f-4f11-bf10-32d05a85ffda")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VRY1" input
+			(at 147.32 109.22 0)
+			(uuid "092b94e4-b0d7-4846-a4d4-29e5af64e90b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1721,8 +1961,8 @@
 		)
 	)
 	(sheet
-		(at 42.545 50.165)
-		(size 44.45 31.75)
+		(at 250.825 90.805)
+		(size 31.75 22.225)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1737,7 +1977,7 @@
 		)
 		(uuid "7c7086a9-e41d-4924-bac0-297d12e2c7f8")
 		(property "Sheetname" "LED Bar Drivers"
-			(at 42.545 49.4534 0)
+			(at 250.825 90.0934 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1748,7 +1988,7 @@
 			)
 		)
 		(property "Sheetfile" "led_bar_drivers.kicad_sch"
-			(at 42.545 82.4996 0)
+			(at 250.825 113.6146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1756,6 +1996,76 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "AMMODAC2" input
+			(at 250.825 106.68 180)
+			(uuid "83324411-2173-467a-990b-70f0f21c8d80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AMMODAC1" input
+			(at 250.825 109.22 180)
+			(uuid "699df3b3-8bab-48af-9ab4-b001adfe587d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AMMODAC0" input
+			(at 250.825 111.76 180)
+			(uuid "eff39e71-7847-4cd5-a5cb-4af5afece1f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HPDAC3" input
+			(at 250.825 92.71 180)
+			(uuid "cbfa3f7d-a7f3-4804-9f9e-9cfa285c5b73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HPDAC2" input
+			(at 250.825 95.25 180)
+			(uuid "bc403e5e-8efc-4ff6-b16d-8b855ef6f375")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HPDAC1" input
+			(at 250.825 97.79 180)
+			(uuid "75773f5c-0c8f-4042-83f8-aa9297b2c658")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HPDAC0" input
+			(at 250.825 100.33 180)
+			(uuid "f35b9d57-0934-44ce-bc4b-d215a69ddbd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1767,8 +2077,8 @@
 		)
 	)
 	(sheet
-		(at 314.96 53.975)
-		(size 34.925 25.4)
+		(at 250.19 41.275)
+		(size 25.4 17.145)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1783,7 +2093,7 @@
 		)
 		(uuid "8be2fbc8-3e56-4fbf-8c37-1c5635a7d56d")
 		(property "Sheetname" "DAC6"
-			(at 314.96 53.2634 0)
+			(at 250.19 40.5634 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1794,7 +2104,7 @@
 			)
 		)
 		(property "Sheetfile" "DAC6.sch.kicad_sch"
-			(at 314.96 79.9596 0)
+			(at 250.19 59.0046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1802,6 +2112,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "LS1DAC0" input
+			(at 250.19 43.18 180)
+			(uuid "ec259389-0189-4a73-83d1-ae479040df53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LS1DAC1" input
+			(at 250.19 45.72 180)
+			(uuid "171ca883-6e44-4a6a-9e1f-c448601e9586")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LS1DAC2" input
+			(at 250.19 48.26 180)
+			(uuid "09a4313e-2498-4961-807e-7c888f6f1519")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LS1DAC5" input
+			(at 250.19 55.88 180)
+			(uuid "5e5e5f52-2272-46d8-8a8a-dd2a8586d8a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LS1DAC4" input
+			(at 250.19 53.34 180)
+			(uuid "65fcc201-a850-48a4-9c28-0c38207993f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LS1DAC3" input
+			(at 250.19 50.8 180)
+			(uuid "f4addb6f-3fe6-4b75-855c-1c91a60f566c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1813,8 +2183,8 @@
 		)
 	)
 	(sheet
-		(at 174.625 191.135)
-		(size 48.26 26.67)
+		(at 251.46 64.135)
+		(size 26.67 17.145)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1829,7 +2199,7 @@
 		)
 		(uuid "f8b6db36-4902-45f1-afa6-b070f6f84c06")
 		(property "Sheetname" "LCD"
-			(at 174.625 190.4234 0)
+			(at 251.46 63.4234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1840,7 +2210,7 @@
 			)
 		)
 		(property "Sheetfile" "LCD.kicad_sch"
-			(at 174.625 218.3896 0)
+			(at 251.46 81.8646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1848,6 +2218,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "D{slash}C_LCD" input
+			(at 251.46 78.74 180)
+			(uuid "6b041cb8-b150-4881-9295-8a972f0cb02b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RESET_LCD" input
+			(at 251.46 76.2 180)
+			(uuid "2c4a6ade-528f-4464-b2f2-0df77ede6d61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI_LCD" input
+			(at 251.46 71.12 180)
+			(uuid "ca096f78-93b3-4dd5-9a10-49e70c10c1c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK_LCD" input
+			(at 251.46 73.66 180)
+			(uuid "1ecaa5d4-c780-458a-bdad-ec39f8baf90b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS_LCD" input
+			(at 251.46 68.58 180)
+			(uuid "301c3efd-c722-4437-8d91-f48a81dff574")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

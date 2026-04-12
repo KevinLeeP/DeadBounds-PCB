@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "DeadBounds Footprints") (type "KiCad") (uri "${KIPRJMOD}/DeadBounds_Sym_Footprint") (options "") (descr ""))
+)
