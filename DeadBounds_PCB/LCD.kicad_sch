@@ -1469,7 +1469,7 @@
 		)
 		(uuid "9e8376cf-e8ab-43c8-b5ba-a2adedca885f")
 	)
-	(hierarchical_label "SD_CS_LCD"
+	(hierarchical_label "SD_CS"
 		(shape input)
 		(at 168.91 91.44 180)
 		(effects
@@ -1480,7 +1480,7 @@
 		)
 		(uuid "9f1a4258-7f50-4dc1-a0a3-4e863dd8bb67")
 	)
-	(hierarchical_label "SD_CS_LCD"
+	(hierarchical_label "SD_CS"
 		(shape input)
 		(at 123.19 99.06 180)
 		(effects

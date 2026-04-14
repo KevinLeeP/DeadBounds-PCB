@@ -3062,6 +3062,30 @@
 			)
 		)
 	)
+	(global_label "+5V"
+		(shape input)
+		(at 191.77 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "558ee68b-6e7a-4599-9b77-0d8ea483e5b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.9143 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 71.12 147.32 90)

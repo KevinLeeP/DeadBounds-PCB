@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 3.2,
+          "height": 3.2,
+          "width": 3.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -522,7 +522,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "outputs/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -646,7 +646,7 @@
         "uuid": "c652495f-dd42-4f45-9891-1e05b67942c0"
       }
     ],
-    "used_designators": "HPLEDs1,D1-20,J4-8,R11-15,R46-49,LS1,U1,C1-5",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
