@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "DeadBounds Footprints") (type "KiCad") (uri "${KIPRJMOD}/DeadBounds_Sym_Footprint") (options "") (descr ""))
 	(lib (name "DeadBounds_Images") (type "KiCad") (uri "${KIPRJMOD}/DeadBounds_Images") (options "") (descr ""))
+	(lib (name "ECE319K") (type "KiCad") (uri "${KIPRJMOD}/ECE319K.pretty") (options "") (descr ""))
 )

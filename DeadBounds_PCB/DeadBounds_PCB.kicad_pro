@@ -132,7 +132,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.4,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -646,7 +646,7 @@
         "uuid": "c652495f-dd42-4f45-9891-1e05b67942c0"
       }
     ],
-    "used_designators": "HPLEDs1,D1-20,J5,R11-15",
+    "used_designators": "HPLEDs1,D1-20,J4-8,R11-15,R46-49,LS1,U1,C1-5",
     "variants": []
   },
   "sheets": [
