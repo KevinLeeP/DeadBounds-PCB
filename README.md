@@ -6,7 +6,8 @@ DeadBounds is a Wolfenstein and DOOM-inspired first-person shooter game where th
 [![Watch the video](https://youtube.com)](https://www.youtube.com/watch?v=j9VEFAx3xls&t=2s)
 
 ## Code Link
-[See the code](https://github.com/KevinLeeP/DeadBounds-PCB](https://github.com/KevinLeeP/DeadBounds)
+[See the code](https://github.com/KevinLeeP/DeadBounds)
+
 
 ## Additional Info
 
